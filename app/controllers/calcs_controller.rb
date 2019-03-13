@@ -13,7 +13,7 @@ class CalcsController < ApplicationController
       when 'multiplication'
         value1 * value2
       when 'division'
-        value1 / value2.to_f
+        value1 / value2
       end
   end
 end
