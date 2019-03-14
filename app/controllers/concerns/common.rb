@@ -1,7 +1,7 @@
 module Common
   extend ActiveSupport::Concern
 
-  def computation(value1, operator, value2)
+  def calculation(value1, operator, value2)
     case operator
     when 'addition'
       value1 + value2
